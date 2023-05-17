@@ -5,6 +5,7 @@ Object detection in satellite imagery plays a crucial role in various domains su
 
 ## Respository Details:
 There are 3 models with colab repository, loss curves,Precision Values and Pictures of Dataset during Training:
+
 Faster_Rcnn_Adam: This uses FasterRcnn Model with Adam Optimizer.
 
 Faster_Rcnn_Cosine:This uses FasterRcnn Model with with a Cosine Decay Learning Rate schedule.
