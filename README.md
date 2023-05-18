@@ -19,3 +19,5 @@ https://lpsmlgeo.github.io/2019-09-22-binary_mask/
 https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-algorithmic-baseline-4515ec9bd9fe
 
 https://github.com/CosmiQ/CosmiQ_SN7_Baseline
+
+https://walkwithfastai.com/Object_Detection
