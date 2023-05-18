@@ -11,7 +11,11 @@ sd5292_yn2224_bgs8255.ipynb: We have developed and implemented a neural network-
 
 ## Refrences:
 https://github.com/cloud-annotations/cloud-annotations/blob/main/training/notebooks/colab/object_detection.ipynb
+
 https://github.com/tensorflow/models/tree/master/research/object_detection
+
 https://lpsmlgeo.github.io/2019-09-22-binary_mask/
+
 https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-algorithmic-baseline-4515ec9bd9fe
+
 https://github.com/CosmiQ/CosmiQ_SN7_Baseline
