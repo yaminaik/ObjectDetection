@@ -1,18 +1,16 @@
 # ObjectDetection On Satellite Imagery
 
 ## Abstract
-Object detection in satellite imagery plays a crucial role in various domains such as urban planning, disaster response, and environmental monitoring. The SpaceNet7 dataset, a benchmark dataset for object detection using satellite imagery, provides a rich collection of high-resolution imagery along with accurately annotated object labels. This paper presents a comprehensive study on object detection using the SpaceNet7 dataset, exploring different state-of-the-art techniques and evaluating their performance. Our findings demonstrate the efficacy of deep learning models in detecting buildings, enabling accurate and efficient analysis of satellite imagery for a wide range of applications.
+Satellite images are widely used for various applications such as urban planning, environmental monitoring, and disaster response. In this project, we aim to develop a deep learning model based on Faster R-CNN to accu- rately detect and classify objects in satellite images. We will train the model on the spacenet 7 dataset of satel- lite images and evaluate its performance. Additionally, we explored various techniques such as data augmen- tation, transfer learning, and hyperparameter tuning to improve the model’s performance. 
 
 ## Respository Details:
-There are 3 models with colab repository, loss curves,Precision Values and Pictures of Dataset during Training:
-
-Faster_Rcnn_Adam: This uses FasterRcnn Model with Adam Optimizer.
-
-Faster_Rcnn_Cosine:This uses FasterRcnn Model with with a Cosine Decay Learning Rate schedule.
-
-SSD_Cosine:This uses SSD Model with with a Cosine Decay Learning Rate schedule.
+Experiments: We trid the implementation on Faster-Rcnn and SSD models which didnt gave the satisfactory results.
+sd5292_yn2224_bgs8255.ipynb: We have developed and implemented a neural network- based solution to detect building footprints on the SpaceNet 7 dataset. In our approach, we primarily focus on performing segmentation to identify buildings within individual images, disregarding the temporal aspect of the original challenge. To facilitate the development process, we utilize fastai, a PyTorch-based deep learn- ing library. 
 
 
 ## Refrences:
 https://github.com/cloud-annotations/cloud-annotations/blob/main/training/notebooks/colab/object_detection.ipynb
 https://github.com/tensorflow/models/tree/master/research/object_detection
+https://lpsmlgeo.github.io/2019-09-22-binary_mask/
+https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-algorithmic-baseline-4515ec9bd9fe
+https://github.com/CosmiQ/CosmiQ_SN7_Baseline
