@@ -5,6 +5,7 @@ Satellite images are widely used for various applications such as urban planning
 
 ## Respository Details:
 Experiments: We trid the implementation on Faster-Rcnn and SSD models which didnt gave the satisfactory results.
+
 sd5292_yn2224_bgs8255.ipynb: We have developed and implemented a neural network- based solution to detect building footprints on the SpaceNet 7 dataset. In our approach, we primarily focus on performing segmentation to identify buildings within individual images, disregarding the temporal aspect of the original challenge. To facilitate the development process, we utilize fastai, a PyTorch-based deep learn- ing library. 
 
 
